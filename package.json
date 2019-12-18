@@ -1,0 +1,38 @@
+{
+  "name": "@lrw/transition",
+  "version": "1.0.0",
+  "description": "a simple yet effective component to handle transitions (fade) with react-router",
+  "main": "./build/index.js",
+  "files": ["/build"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasreppewelander/TransitionComponent.git"
+  },
+  "author": "Lucas Reppe Welander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasreppewelander/TransitionComponent/issues"
+  },
+  "homepage": "https://github.com/lucasreppewelander/TransitionComponent#readme",
+  "peerDependencies": {
+    "react": "^16.8.0",
+	"react-dom": "^16.8.0",
+	"prop-types": "^15.6.0"
+  },
+  "dependencies": {
+    "@upsales/bemclass": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
